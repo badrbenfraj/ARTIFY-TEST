@@ -1,6 +1,6 @@
 document.getElementById("btn").addEventListener("click", maxOnesIndex);
 
-var arr = [0,1,0,1,0,1]; 
+var arr = [1, 0, 0, 1, 1, 0, 1, 1]; 
 
 function maxOnesIndex(arr) 
     { 
@@ -30,5 +30,6 @@ function maxOnesIndex(arr)
         return max_index; 
     } 
     document.getElementById("resultat").innerHTML = maxOnesIndex(arr)
+
     console.log(maxOnesIndex(arr));
 
